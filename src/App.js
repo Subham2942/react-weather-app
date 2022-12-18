@@ -40,7 +40,7 @@ function App() {
   
   return (
     <div className="mx-auto max-w-screen-md mt-4 py-5 px-32 
-    bg-gradient-to-br from-violet-700 to-red-700 h-fit 
+    bg-gradient-to-br from-blue-700 to-orange-700 h-fit 
     shadow-xl shadow-gray-400">
       <TopButtons setQuery={setQuery} />
       <Inputs unit={unit} setUnit={setUnit} setQuery={setQuery} />
