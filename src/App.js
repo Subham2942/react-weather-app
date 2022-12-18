@@ -1,5 +1,4 @@
 
-import './App.css';
 import TopButtons from './Components/TopButtons';
 import Inputs from './Components/Inputs';
 import TimeAndLocation from './Components/TimeAndLocation';
