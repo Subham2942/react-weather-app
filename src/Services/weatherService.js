@@ -8,7 +8,7 @@ const getWeatherData = (infoType, searchParams) => {
     const url = new URL(BASE_URL + "/" + infoType + '.json' );
     url.search = new URLSearchParams({
         key: API_KEY,
-        days: '6',
+        days: '1',
         ...searchParams,
         aqi:'no',
         alerts: 'no',
