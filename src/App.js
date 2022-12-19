@@ -13,7 +13,7 @@ import {FaSadTear} from 'react-icons/fa'
 
 function App() {
 
-  const [query, setQuery] = useState("Tokyo");
+  const [query, setQuery] = useState("New Delhi");
   const [unit, setUnit ] = useState("metric");
   const [weather, setWeather] = useState(null);
 
