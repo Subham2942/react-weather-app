@@ -1,4 +1,3 @@
-
 import TopButtons from './Components/TopButtons';
 import Inputs from './Components/Inputs';
 import TimeAndLocation from './Components/TimeAndLocation';
@@ -13,7 +12,7 @@ import {FaSadTear} from 'react-icons/fa'
 
 function App() {
 
-  const [query, setQuery] = useState("Tokyo");
+  const [query, setQuery] = useState("New Delhi");
   const [unit, setUnit ] = useState("metric");
   const [weather, setWeather] = useState(null);
 
@@ -38,9 +37,9 @@ function App() {
   
   
   return (
-    <div className="mx-auto max-w-screen-md mt-4 py-5 px-32 
+    <div className="mx-auto max-w-screen-md mt-4 py-5 md:px-32 
     bg-gradient-to-br from-blue-700 to-orange-700 h-fit 
-    shadow-xl shadow-gray-400">
+    shadow-xl shadow-gray-400  ">
       <TopButtons setQuery={setQuery} />
       <Inputs unit={unit} setUnit={setUnit} setQuery={setQuery} />
 
