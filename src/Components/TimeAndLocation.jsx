@@ -54,7 +54,7 @@ const TimeAndLocation = ({ weather }) => {
   return (
     <>
       <div className="flex item-center justify-center my-6">
-        <p className="text-white text-xl font-extralight">
+        <p className="text-white text-sm md:text-xl font-extralight">
           {`${daysOfWeek[Number(day)]}, ${date}th ${
             month[Number(monthNum - 1)]
           }, ${year} `}{" "}
@@ -62,7 +62,7 @@ const TimeAndLocation = ({ weather }) => {
         </p>
       </div>
       <div className="flex item-center justify-center my-3">
-        <p className="text-white text-2xl font-medium">
+        <p className="text-white text-lg md:text-2xl font-medium">
           {name}, {country}
         </p>
       </div>
