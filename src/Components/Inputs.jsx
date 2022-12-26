@@ -22,7 +22,7 @@ const Inputs = ({ unit, setUnit, setQuery }) => {
             onChange={(e) => setCity(e.currentTarget.value)}
             type="text"
             placeholder="search for city..."
-            className="text-xl p-2 font-light w-10/12 shadow-xl outline-none capitalize placeholder:lowercase "
+            className="  md:text-xl p-2 font-light w-10/12 shadow-xl outline-none capitalize placeholder:lowercase "
           />
           <button type="submit" className="text-white cursor-pointer transition ease-out hover:scale-125">
             <FaSearch size={20}/>
